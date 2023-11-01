@@ -1,0 +1,88 @@
+.login-website-logo-mobile-image {
+    width: 165px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .login-website-logo-mobile-image {
+      display: none;
+    }
+  }
+  
+  .login-image {
+    width: 278px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .login-image {
+      background-size: cover;
+      width: 70vh;
+      box-shadow: black;
+  
+      border: 2px solid gold;
+      box-shadow: 0 0 10px gold;
+      background-clip: padding-box;
+    }
+  }
+  
+  .login-website-logo-desktop-image {
+    width: 185px;
+    height: 25vh;
+    border-radius: 60px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .login-website-logo-desktop-image {
+      display: none;
+    }
+  }
+  
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #475569;
+  }
+  
+  .username-input-field {
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+  
+  .password-input-field {
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+  .btn:hover {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    height: 50px;
+    width: 100%;
+  
+    margin-bottom: 2px;
+    background-color: goldenrod;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
